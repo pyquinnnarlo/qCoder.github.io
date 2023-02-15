@@ -1,0 +1,215 @@
+@import url('app.css');
+
+.bar_HTML {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_HTML::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 110, 255);
+    transition: 1s;
+}
+
+.bar_HTML:hover::before {
+    width: 90%;
+}
+
+
+.bar_CSS {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_CSS::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(1, 204, 255);
+    transition: 1s;
+}
+
+.bar_CSS:hover::before {
+    width: 90%;
+}
+
+
+.bar_SCSS {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_SCSS::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(153, 0, 255);
+    transition: 1s;
+}
+
+.bar_SCSS:hover::before {
+    width: 45%;
+}
+
+
+.bar_JS {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_JS::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.bar_JS:hover::before {
+    width: 40%;
+}
+
+
+.bar_PY {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_PY::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.bar_PY:hover::before {
+    width: 75%;
+}
+
+
+.bar_Java {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_Java::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.bar_Java:hover::before {
+    width: 45%;
+}
+
+
+.bar_jQuery {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_jQuery::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.bar_jQuery:hover::before {
+    width: 80%;
+}
+
+.bar_Bootstrap {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.bar_Bootstrap::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.bar_Bootstrap:hover::before {
+    width: 85%;
+}
+
+.bar_Django {
+    display: block;
+    height: 1vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.bar_Django::before {
+    content: " ";
+    color: red;
+    height: 25vh;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.bar_Django:hover::before {
+    width: 70%;
+}
